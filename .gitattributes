@@ -2,3 +2,11 @@
 * text=auto
 *.cs linguist-detectable=true
 *.cs linguist-language=C#
+
+# Ignore other Unity file types from affecting repo language stats
+*.shader linguist-detectable=false
+*.cginc linguist-detectable=false
+*.meta linguist-detectable=false
+*.unity linguist-detectable=false
+*.prefab linguist-detectable=false
+*.mat linguist-detectable=false
